@@ -1,0 +1,21 @@
+  div{
+
+  width: 150px;
+  height: 150px;
+  background-color: yellow;
+  border: 1px solid black;
+  /* transform: translate(50px,100px);
+  transform: rotate(20deg);
+   transform: scale(2, 3);
+     transform: scaleX(2); */
+  animation-name: myAnimation;
+  animation-duration: 4s;
+  }
+
+  
+  @keyframes myAnimation {
+  0%   {background-color: red;  transform: rotate(20deg);}
+  25%  {background-color: yellow;  transform: rotate(50deg);}
+  50%  {background-color: blue;  transform: rotate(70deg);}
+  100% {background-color: green;  transform: rotate(0deg);}
+}
